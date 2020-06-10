@@ -1,6 +1,7 @@
 import os
 
 mofid_path = os.path.split(os.path.abspath(__file__))[0]
+
 mofidpy_path = os.path.join(mofid_path,'Python')
 bin_path = os.path.join(mofid_path,'bin')
 openbabel_path = os.path.join(mofid_path,'openbabel')
